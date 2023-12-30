@@ -3,7 +3,9 @@ import { AddTask } from './AddTask'
 import { TaskList } from './TaskList'
 import {TasksProvider} from './TasksContext'
 
-
+const pavan=()=>{
+  console.log('Iam pavan(17)');
+}
 const App = () => {
   return (
     <TasksProvider>
